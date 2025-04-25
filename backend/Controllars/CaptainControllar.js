@@ -28,7 +28,7 @@ class CaptainControllar {
                                     color: data.vehicle.color,
                                     plate: data.vehicle.plate,
                                     capacity: data.vehicle.capacity,
-                                    vehicalType: data.vehicle.vehicalType
+                                    vehicalType: data.vehicle?.vehicalType
                                 }
                             })
                             createdCaptain.save()
