@@ -6,7 +6,7 @@ class CaptainControllar {
     create(data) {
         return new Promise(
             async (res, rej) => {
-                console.log(data)
+                console.log(data.vehicle.vehicalType)
                 if (data.fullname !== null && data.email !== "" && data.password !== "" && data.vehicle !== null) {
                     try {
                         const findCaptain = await CaptainModel.findOne({ email: data.email })
