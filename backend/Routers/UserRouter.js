@@ -16,6 +16,7 @@ UserRouter.post("/register-user",
                 (success) => {
                     res.cookie("token", success.token, {
                         httpOnly: true,
+                        secure: true,
                         secure: process.env.COOKIE_SECURE === "true",
                         sameSite: process.env.NODE_ENV === "production" ? "None" : "Lax",
                     });
