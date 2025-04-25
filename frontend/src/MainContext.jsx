@@ -1,3 +1,4 @@
+
 import React, { createContext, useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -13,6 +14,7 @@ function Main(props) {
     const CaptainBaseUrl = import.meta.env.VITE_API_CAPTAIN_BASE_URL
     const locationBaseUrl = import.meta.env.VITE_API_LOCATION_BASE_URL
     const RideBaseUrl = import.meta.env.VITE_API_RIDE_BASE_URL
+    console.log(apiBaseUrl)
     return (
         <MainContext.Provider value={{ locationBaseUrl, finishRide, SetFinishRide, ride, SetRide, RideBaseUrl, apiBaseUrl, CaptainBaseUrl, UserBaseUrl, notify }}>
             <ToastContainer />
