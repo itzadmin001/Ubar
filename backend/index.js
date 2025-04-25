@@ -30,6 +30,7 @@ app.use("/location", LocationRouter);
 app.use("/ride", RideRouter);
 
 app.get("/", (req, res) => {
+    console.log(FrontEndUrl)
     res.send("Hello World!");
 });
 
