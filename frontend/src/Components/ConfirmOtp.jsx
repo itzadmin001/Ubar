@@ -39,7 +39,7 @@ function ConfirmOtp({ SetaccesptRide, RideBaseUrl, apiBaseUrl, ride, SetConfirmR
                 <div >
                     <div className='flex justify-between gap-2 items-center border-2 border-yellow-500 p-4 rounded-xl'>
                         <div className='flex items-center gap-2'>
-                            <img src="src/assets/captain-user.avif" alt="" className='w-10 rounded-full' />
+                            <img src="/captain-user.avif" alt="" className='w-10 rounded-full' />
                             <h1 className='text-xl font-semibold'>{ride?.user.fullname.firstname + " " + ride?.user.fullname.lastname}</h1>
                         </div>
                         <div >

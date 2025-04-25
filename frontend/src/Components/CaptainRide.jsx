@@ -34,9 +34,9 @@ function CaptainRide() {
 
     return (
         <div className='h-screen relative overflow-hidden'>
-            <img src="src/assets/Ubar.webp" alt="" className='w-[18vw] absolute top-2 left-4 ' />
+            <img src="/Ubar.webp" alt="" className='w-[18vw] absolute top-2 left-4 ' />
             <div className='w-screen h-4/5'>
-                <img src="src/assets/uber-map.webp" alt="" className='h-full w-full object-center' />
+                <img src="/uber-map.webp" alt="" className='h-full w-full object-center' />
             </div>
             <div className='h-3/5 p-4 bg-yellow-500'>
                 <h1 className='w-full'>

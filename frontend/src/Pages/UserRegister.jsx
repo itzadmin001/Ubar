@@ -75,7 +75,7 @@ function UserRegister() {
         <div className="w-full h-screen bg-white flex flex-col justify-between px-2">
             <div className=" shadow-sm rounded-sm p-6">
                 <img
-                    src="/src/assets/Ubar.webp"
+                    src="/Ubar.webp"
                     alt="Ubar Logo"
                     className="w-[20vw] p-1 mb-4"
                 />

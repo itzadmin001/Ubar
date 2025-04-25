@@ -111,15 +111,15 @@ function CaptainHome() {
 
     return (
         <div className='h-screen relative overflow-hidden'>
-            <img src="src/assets/Ubar.webp" alt="" className='w-[18vw] absolute top-2 left-4 ' />
+            <img src="/Ubar.webp" alt="" className='w-[18vw] absolute top-2 left-4 ' />
             <div className='w-screen h-3/5'>
-                <img src="src/assets/uber-map.webp" alt="" className='h-full w-full object-center' />
+                <img src="/uber-map.webp" alt="" className='h-full w-full object-center' />
             </div>
             <div className='h-2/5 p-6'>
                 <div>
                     <div className='flex justify-between '>
                         <div className='flex  items-center gap-2'>
-                            <img src="src/assets/captain-user.avif" alt="" className='w-10 rounded-full' />
+                            <img src="/captain-user.avif" alt="" className='w-10 rounded-full' />
                             <h1 className='text-xl font-semibold'>Harsh Patel</h1>
                         </div>
                         <div >

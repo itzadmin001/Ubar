@@ -190,7 +190,7 @@ function UserHome() {
         <div className="h-screen relative overflow-hidden">
             <div className="h-screen w-screen">
                 <img
-                    src="src/assets/uber-map.webp"
+                    src="/uber-map.webp"
                     alt="Map"
                     className="h-full w-full object-center"
                 />

@@ -40,7 +40,7 @@ function FinishRide({ SetFinishRide }) {
                 <div >
                     <div className='flex justify-between gap-2 items-center bg-yellow-500 p-4 rounded-xl'>
                         <div className='flex items-center gap-2'>
-                            <img src="src/assets/captain-user.avif" alt="" className='w-10 rounded-full' />
+                            <img src="/captain-user.avif" alt="" className='w-10 rounded-full' />
                             <h1 className='text-xl font-semibold'>{finishRide?.data.user.fullname.firstname + " " + finishRide?.data.user.fullname.lastname}</h1>
                         </div>
                         <div >

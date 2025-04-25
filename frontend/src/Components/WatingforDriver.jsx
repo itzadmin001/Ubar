@@ -7,7 +7,7 @@ function WatingforDriver({ ride }) {
         <div>
             <div className='w-full mx-auto'>
                 <div className='flex items-center justify-between p-4'>
-                    <img src="src/assets/Uber-car.png" alt="" className='w-52' />
+                    <img src="/Uber-car.png" alt="" className='w-52' />
                     <div className='flex flex-col items-end'>
                         <h2 className='font-semibold text-xl'>{ride?.captain?.fullname?.firstname + " " + ride?.captain?.fullname?.lastname}</h2>
                         <h1 className='font-semibold text-xl'>{ride?.captain?.vehicle?.plate}</h1>
