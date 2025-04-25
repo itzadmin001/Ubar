@@ -14,7 +14,11 @@ function Main(props) {
     const CaptainBaseUrl = import.meta.env.VITE_API_CAPTAIN_BASE_URL
     const locationBaseUrl = import.meta.env.VITE_API_LOCATION_BASE_URL
     const RideBaseUrl = import.meta.env.VITE_API_RIDE_BASE_URL
-    console.log(apiBaseUrl)
+    console.log(apiBaseUrl,"apibase")
+    console.log(UserBaseUrl,"user")
+    console.log(CaptainBaseUrl,"captain")
+    console.log(locationBaseUrl,"location")
+    console.log(RideBaseUrl, "ride")
     return (
         <MainContext.Provider value={{ locationBaseUrl, finishRide, SetFinishRide, ride, SetRide, RideBaseUrl, apiBaseUrl, CaptainBaseUrl, UserBaseUrl, notify }}>
             <ToastContainer />
