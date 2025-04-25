@@ -63,7 +63,7 @@ const CaptainSchema = new mongoose.Schema({
         type: { type: String, enum: ['Point'], default: 'Point' },
         coordinates: {
             type: [Number], // [longitude, latitude]
-            default: [null, null]
+            default: [0, 0]
         }
     }
 }, { timestamps: true });
