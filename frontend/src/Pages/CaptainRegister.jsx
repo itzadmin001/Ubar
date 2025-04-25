@@ -41,6 +41,7 @@ function CaptainRegister() {
                 vehicalType: vehicletype
             }
         };
+        console.log(data)
         if (data.fullname != null && data.email != "" && data.password != "" && data.vehicle != "") {
             axios.post(apiBaseUrl + CaptainBaseUrl + "/register", data, {
                 withCredentials: true
