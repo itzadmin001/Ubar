@@ -28,7 +28,6 @@ const Captainvalidation = [
     body("vehicle.color").notEmpty().isLength({ min: 3 }).withMessage("color must be at least 3 characters long"),
     body("vehicle.plate").notEmpty().isLength({ min: 3 }).withMessage("Plate numbers must be at least 3 characters long"),
     body("vehicle.capacity").notEmpty().isLength({ min: 1 }).withMessage("Capacity must be at least 1 characters long"),
-    body("vehicle.vehicalType").notEmpty().withMessage("Vechical type must be at least 3 characters long"),
     (req, res, next) => {
         const error = validationResult(req)
         if (!error.isEmpty()) {
