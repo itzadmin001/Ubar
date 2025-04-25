@@ -19,7 +19,7 @@ const RideRouter = require('./Routers/RideRouter');
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: true,
+    origin: FrontEndUrl,
     credentials: true,
 }));
 app.use(express.urlencoded({ extended: true }));
