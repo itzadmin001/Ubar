@@ -10,6 +10,7 @@ UserRouter.get("/okay", (req, res) => {
 UserRouter.post("/register-user",
     Uservalidation,
     (req, res) => {
+        console.log(req)
         const result = new UserController().create(req.body)
             .then(
                 (success) => {
